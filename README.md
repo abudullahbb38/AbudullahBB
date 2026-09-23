@@ -1,5 +1,3 @@
-# Tunis Personal Portfolio React Template
-
 ## Description
 
 Setup Procedure
