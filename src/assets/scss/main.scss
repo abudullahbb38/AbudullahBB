@@ -1,25 +1,22 @@
+@use "main/modal" as *;
+@use "main/404" as *;
+@use "main/preview" as *;
+@use "main/circle" as *;
+@use "main/styleswitcher" as *;
+@use "main/slick" as *;
+@use "main/style" as *;
+
+@use "main/skins/yellow" as *;
+@use "main/skins/blue" as *;
+@use "main/skins/blueviolet" as *;
+@use "main/skins/goldenrod" as *;
+@use "main/skins/green" as *;
+@use "main/skins/magenta" as *;
+@use "main/skins/orange" as *;
+@use "main/skins/purple" as *;
+@use "main/skins/red" as *;
+@use "main/skins/yellowgreen" as *;
+
 /*----FontAwesome-------*/
 @import url("../fonts/font-awesome/css/font-awesome.min.css");
-@import "node_modules/direction-reveal/src/styles/direction-reveal.scss";
 @import "bootstrap/dist/css/bootstrap.css";
-
-// Style Scss
-@import "main/modal";
-@import "main/404";
-@import "main/preview";
-@import "main/circle";
-@import "main/styleswitcher";
-@import "main/slick";
-@import "main/style";
-
-// skin
-@import "main/skins/yellow";
-@import "main/skins/blue";
-@import "main/skins/blueviolet";
-@import "main/skins/goldenrod";
-@import "main/skins/green";
-@import "main/skins/magenta";
-@import "main/skins/orange";
-@import "main/skins/purple";
-@import "main/skins/red";
-@import "main/skins/yellowgreen";
