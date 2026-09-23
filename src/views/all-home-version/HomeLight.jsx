@@ -7,7 +7,6 @@ import Portfolio from "../../components/portfolio/PortfolioLight";
 import Blog from "../../components/blog/BlogLight";
 import Contact from "../../components/Contact";
 import Social from "../../components/Social";
-import AnimatedCursor from "react-animated-cursor";
 
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
@@ -44,14 +43,6 @@ const HomeLight = () => {
           ></i>
         </button>
       </div>
-      <AnimatedCursor
-        innerSize={8}
-        outerSize={44}
-        color="114, 182, 38"
-        outerAlpha={0.3}
-        innerScale={0.7}
-        outerScale={1.2}
-      />
       <Tabs>
         <div className="header">
           <TabList className=" icon-menu  revealator-slideup revealator-once revealator-delay1">
