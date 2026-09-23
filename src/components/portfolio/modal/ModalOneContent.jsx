@@ -6,7 +6,7 @@ const ModalOneContent = () => {
       <figure>
         {/* Project Details Starts */}
         <figcaption>
-          <h3>Image Project</h3>
+          <h3>Payme Project</h3>
           <div className="row open-sans-font">
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-file-text-o pr-2"></i>
@@ -34,11 +34,11 @@ const ModalOneContent = () => {
               <span className="project-label">Preview </span>:{" "}
               <span className="ft-wt-600 uppercase">
                 <a
-                  href="https://themeforest.net/item/edina-personal-portfolio-react-template/34082686"
+                  href="https://payme.uz/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  www.envato.com
+                  payme.uz
                 </a>
               </span>
             </div>

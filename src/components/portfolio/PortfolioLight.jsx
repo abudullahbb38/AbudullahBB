@@ -71,7 +71,7 @@ const PortfolioLight = () => {
         <figure className="direction-reveal__card" onClick={toggleModalOne}>
           <img src="img/projects/project-1.jpg" alt="Portolio" />
           <div className=" direction-reveal__overlay direction-reveal__anim--enter">
-            <span className="direction-reveal__title">Image Project</span>
+            <span className="direction-reveal__title">PAY ME</span>
           </div>
         </figure>
 
@@ -104,7 +104,7 @@ const PortfolioLight = () => {
         <figure className="direction-reveal__card" onClick={toggleModalTwo}>
           <img src="img/projects/project-2.jpg" alt="Portolio" />
           <div className=" direction-reveal__overlay direction-reveal__anim--enter">
-            <span className="direction-reveal__title">Youtube Project</span>
+            <span className="direction-reveal__title">CLUTCH</span>
           </div>
         </figure>
 

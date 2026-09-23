@@ -6,7 +6,7 @@ const ModalTwoContent = () => {
       <figure>
         {/* Project Details Starts */}
         <figcaption>
-          <h3>Youtube Project</h3>
+          <h3>CLUCH</h3>
           <div className="row open-sans-font">
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-file-text-o pr-2"></i>
@@ -34,11 +34,11 @@ const ModalTwoContent = () => {
               <span className="project-label">Preview </span>:{" "}
               <span className="ft-wt-600 uppercase">
                 <a
-                  href="https://videohive.net/"
+                  href="https://clutch.co/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  www.videohive.net
+                  clutch.co
                 </a>
               </span>
             </div>
@@ -49,14 +49,9 @@ const ModalTwoContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <div className="videocontainer">
-          <iframe
-            className="youtube-video"
-            title="youtube video"
-            src="https://www.youtube.com/embed/7e90gBu4pas?enablejsapi=1&version=3&playerapiid=ytplayer"
-            allowFullScreen
-          ></iframe>
-        </div>
+        {/*  Main Project Content Starts */}
+        <img src="img/projects/project-2.jpg" alt="Portolio" />
+        {/* Main Project Content Ends */}
         {/* Main Project Content Ends */}
       </figure>
     </div>
