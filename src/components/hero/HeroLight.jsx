@@ -7,10 +7,7 @@ const heroContent = {
   heroMobileImage: "img-mobile-light",
   heroTitleName: "Abudullah Basil",
   heroDesignation: "web designer",
-  heroDescriptions: `I'm a Uzbek based web designer & front‑end developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
+  heroDescriptions: `I have over 5 years of experience building frontend, backend, and full-stack applications. I have developed many websites and digital products, turning thoughtful ideas into fast, reliable experiences.`,
   heroBtn: "more about me",
 };
 

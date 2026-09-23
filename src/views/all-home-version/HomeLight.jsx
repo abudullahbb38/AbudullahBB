@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import { Link } from "react-router-dom";
 import Hero from "../../components/hero/HeroLight";
 import Index from "../../components/about/index";
 import Address from "../../components/Address";
@@ -19,9 +18,13 @@ const menuItem = [
 ];
 
 const HomeLight = () => {
-  useEffect(() => {
-    document.body.classList.add("light");
+  const [isLight, setIsLight] = useState(true);
 
+  useEffect(() => {
+    document.body.classList.toggle("light", isLight);
+  }, [isLight]);
+
+  useEffect(() => {
     return () => {
       document.body.classList.remove("light");
     };
@@ -30,9 +33,16 @@ const HomeLight = () => {
   return (
     <div className="green">
       <div className="demo-sticker">
-        <Link to="/home-dark">
-          <i className="fa fa-moon-o" aria-hidden="true"></i>
-        </Link>
+        <button
+          type="button"
+          aria-label={isLight ? "Switch to dark mode" : "Switch to light mode"}
+          onClick={() => setIsLight((current) => !current)}
+        >
+          <i
+            className={`fa ${isLight ? "fa-moon-o" : "fa-lightbulb-o"}`}
+            aria-hidden="true"
+          ></i>
+        </button>
       </div>
       <AnimatedCursor
         innerSize={8}

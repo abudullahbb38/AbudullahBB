@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import { Link } from "react-router-dom";
 import Hero from "../../components/hero/Hero";
 import Index from "../../components/about/index";
 import Address from "../../components/Address";
@@ -18,16 +17,25 @@ const menuItem = [
 ];
 
 const HomeDark = () => {
+  const [isLight, setIsLight] = useState(false);
+
   useEffect(() => {
-    document.body.classList.remove("light");
-  }, []);
+    document.body.classList.toggle("light", isLight);
+  }, [isLight]);
 
   return (
     <div className="yellow">
       <div className="demo-sticker">
-        <Link to="/home-light">
-          <i className="fa fa-lightbulb-o" aria-hidden="true"></i>
-        </Link>
+        <button
+          type="button"
+          aria-label={isLight ? "Switch to dark mode" : "Switch to light mode"}
+          onClick={() => setIsLight((current) => !current)}
+        >
+          <i
+            className={`fa ${isLight ? "fa-moon-o" : "fa-lightbulb-o"}`}
+            aria-hidden="true"
+          ></i>
+        </button>
       </div>
       <Tabs>
         <div className="header">

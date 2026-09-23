@@ -2039,4 +2039,13 @@ button:focus {
     cursor: pointer !important;
     text-decoration: none;
   }
+  button {
+    background: transparent;
+    border: 0;
+    color: #fff;
+    display: block;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+  }
 }
