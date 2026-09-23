@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { Link } from "react-router-dom";
 import Hero from "../../components/hero/HeroLight";
 import Index from "../../components/about/index";
 import Address from "../../components/Address";
@@ -18,14 +19,20 @@ const menuItem = [
 ];
 
 const HomeLight = () => {
-  document.body.classList.add("light");
+  useEffect(() => {
+    document.body.classList.add("light");
+
+    return () => {
+      document.body.classList.remove("light");
+    };
+  }, []);
 
   return (
     <div className="green">
       <div className="demo-sticker">
-        <a href="/home-dark">
+        <Link to="/home-dark">
           <i className="fa fa-moon-o" aria-hidden="true"></i>
-        </a>
+        </Link>
       </div>
       <AnimatedCursor
         innerSize={8}

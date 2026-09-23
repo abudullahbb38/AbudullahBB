@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { Link } from "react-router-dom";
 import Hero from "../../components/hero/Hero";
 import Index from "../../components/about/index";
 import Address from "../../components/Address";
@@ -17,12 +18,16 @@ const menuItem = [
 ];
 
 const HomeDark = () => {
+  useEffect(() => {
+    document.body.classList.remove("light");
+  }, []);
+
   return (
     <div className="yellow">
       <div className="demo-sticker">
-        <a href="/home-light">
+        <Link to="/home-light">
           <i className="fa fa-lightbulb-o" aria-hidden="true"></i>
-        </a>
+        </Link>
       </div>
       <Tabs>
         <div className="header">
