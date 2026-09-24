@@ -8,7 +8,10 @@ const skillsContent = [
   { skillClass: "p65", skillPercent: "65", skillName: "NEXTJS" },
   { skillClass: "p66", skillPercent: "66", skillName: "PYTHON" },
   { skillClass: "p95", skillPercent: "95", skillName: "DJANGO" },
-  { skillClass: "p50", skillPercent: "50", skillName: "AI&Automation" },
+  { skillClass: "p86", skillPercent: "86", skillName: "MongoDB" },
+  { skillClass: "p91", skillPercent: "91", skillName: "PostgreSQL" },
+  { skillClass: "p75", skillPercent: "75", skillName: "AI&Automation" },
+  
 ];
 
 const Skills = () => {

@@ -7,6 +7,9 @@ import ModalThreeContent from "./modal/ModalThreeContent";
 import ModalFourContent from "./modal/ModalFourContent";
 import ModalFiveContent from "./modal/ModalFiveContent";
 import ModalSixContent from "./modal/ModalSixContent";
+import ModalSevenContent from "./modal/ModalSevenContent";
+import ModalEightContent from "./modal/ModalEightContent";
+
 
 const PortfolioLight = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +18,9 @@ const PortfolioLight = () => {
   const [isOpen4, setIsOpen4] = useState(false);
   const [isOpen5, setIsOpen5] = useState(false);
   const [isOpen6, setIsOpen6] = useState(false);
-
+  const [isOpen7, setIsOpen7] = useState(false);
+  const [isOpen8, setIsOpen8] = useState(false);
+  
   function toggleModalOne() {
     setIsOpen(!isOpen);
   }
@@ -34,7 +39,13 @@ const PortfolioLight = () => {
   function toggleModalSix() {
     setIsOpen6(!isOpen6);
   }
-
+  function toggleModalSeven() {
+    setIsOpen7(!isOpen7);
+  }
+  function toggleModalEight() {
+    setIsOpen8(!isOpen8);
+  }
+  
   useEffect(() => {
     // Init with default setup
     DirectionReveal();
@@ -248,8 +259,67 @@ const PortfolioLight = () => {
         {/* End  ModalSixContent */}
       </li>
       {/* <!-- Portfolio Item Ends --> */}
+      <li className="direction-reveal">
+        <figure className="direction-reveal__card" onClick={toggleModalSeven}>
+          <img src="img/projects/project-7.jpg" alt="Portolio" />
+          <div className=" direction-reveal__overlay direction-reveal__anim--enter">
+            <span className="direction-reveal__title">Internship Ilmiy UZ</span>
+          </div>
+        </figure>
 
-            
+        {/* Start ModalSevenContent */}
+        <Modal
+          isOpen={isOpen7}
+          onRequestClose={toggleModalSeven}
+          contentLabel="My dialog"
+          className="custom-modal dark green"
+          overlayClassName="custom-overlay"
+          closeTimeoutMS={500}
+        >
+          <div>
+            <button className="close-modal" onClick={toggleModalSeven}>
+              <img src="/img/cancel.svg" alt="close icon" />
+            </button>
+            {/* End close icon */}
+
+            <div className="box_inner portfolio">
+              <ModalSevenContent />
+            </div>
+          </div>
+        </Modal>
+        {/* End  ModalSevenContent */}
+      </li>
+      {/* <!-- Portfolio Item Ends --> */}
+      <li className="direction-reveal">
+        <figure className="direction-reveal__card" onClick={toggleModalEight}>
+          <img src="img/projects/project-8.jpg" alt="Portolio" />
+          <div className=" direction-reveal__overlay direction-reveal__anim--enter">
+            <span className="direction-reveal__title">Darsly</span>
+          </div>
+        </figure>
+
+        {/* Start ModalEightContent */}
+        <Modal
+          isOpen={isOpen8}
+          onRequestClose={toggleModalEight}
+          contentLabel="My dialog"
+          className="custom-modal dark green"
+          overlayClassName="custom-overlay"
+          closeTimeoutMS={500}
+        >
+          <div>
+            <button className="close-modal" onClick={toggleModalEight}>
+              <img src="/img/cancel.svg" alt="close icon" />
+            </button>
+            {/* End close icon */}
+
+            <div className="box_inner portfolio">
+              <ModalEightContent />
+            </div>
+          </div>
+        </Modal>
+        {/* End  ModalEightContent */}
+      </li>      
     </ul>
   );
 };
