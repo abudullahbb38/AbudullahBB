@@ -2,16 +2,16 @@ import React from "react";
 
 const educationContent = [
   {
-    year: "2021",
-    degree: "MASTER DEGREE",
+    year: "2019-2021",
+    degree: "MSc in software Engineering",
     institute: "TASHKENT UNIVERSITY OF INFORMATION TECHNOLOGIES",
-    details: `Graduated with a master degree in information technologies.`,
+    details: "",
   },
   {
-    year: "2019",
-    degree: "BACHELOR DEGREE",
+    year: "2015-2019",
+    degree: "BSc in software Engineering",
     institute: "TASHKENT UNIVERSITY OF INFORMATION TECHNOLOGIES",
-    details: `Graduated with a bachelor degree in information technologies.`,
+    details: "",
   },
 ];
 
@@ -28,7 +28,7 @@ const Education = () => {
             {val.degree}
             <span className="place open-sans-font">{val.institute}</span>
           </h5>
-          <p className="open-sans-font">{val.details}</p>
+          {val.details && <p className="open-sans-font">{val.details}</p>}
         </li>
       ))}
     </ul>
