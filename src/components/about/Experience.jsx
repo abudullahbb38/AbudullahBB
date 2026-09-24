@@ -2,22 +2,17 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "2025 - Present",
-    position: "Full Stack Developer",
+    year: "2023-present",
+    position: "Udevs",
     compnayName: "",
-    details: `Currently working as a full stack developer, building and maintaining modern web applications.`,
+    details: `• Shipped multiple full-stack features end-to-end, integrating REST APIs and partnering with backend and design teams across several sprints to ship functional UI features on schedule and reduce UI-related bugs.
+• Wrote maintainable, component-based, reusable code adopted across multiple projects, cutting future development time on similar features and quickly ramping up on new tools in a fast-paced Agile environment.`,
   },
   {
-    year: "2023 - 2025",
-    position: "Backend Developer",
+    year: "2021-2023",
+    position: "Colibrisoft",
     compnayName: "",
-    details: `Worked on server-side logic, APIs, and application architecture for scalable systems.`,
-  },
-  {
-    year: "2021 - 2023",
-    position: "Frontend Developer",
-    compnayName: "",
-    details: `Developed responsive and user-focused interfaces using modern frontend technologies.`,
+    details: `Built and deployed 10+ client-facing web applications, developing 50+ reusable React components using Tailwind CSS for responsive, cross-browser-compatible interfaces.`,
   },
 ];
 
