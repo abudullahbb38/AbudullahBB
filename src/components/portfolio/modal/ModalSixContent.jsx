@@ -6,7 +6,7 @@ const ModalSixContent = () => {
       <figure>
         {/* Project Details Starts */}
         <figcaption>
-          <h3>Image Project</h3>
+          <h3>MIGRATION UZ</h3>
           <div className="row open-sans-font">
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-file-text-o pr-2"></i>
@@ -18,7 +18,7 @@ const ModalSixContent = () => {
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-user-o pr-2"></i>
               <span className="project-label">Client </span>:{" "}
-              <span className="ft-wt-600 uppercase">Envato</span>
+              <span className="ft-wt-600 uppercase"></span>
             </div>
             {/* End .col */}
 
@@ -34,11 +34,11 @@ const ModalSixContent = () => {
               <span className="project-label">Preview </span>:{" "}
               <span className="ft-wt-600 uppercase">
                 <a
-                  href="https://www.pexels.com/search/agency/"
+                  href="https://migration.uz/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  www.pexels.com
+                  migration.uz
                 </a>
               </span>
             </div>

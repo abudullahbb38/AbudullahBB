@@ -11,21 +11,21 @@ const ModalTwoContent = () => {
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-file-text-o pr-2"></i>
               <span className="project-label">Project </span>:{" "}
-              <span className="ft-wt-600 uppercase">Video</span>
+              <span className="ft-wt-600 uppercase">Web application</span>
             </div>
             {/* End .col */}
 
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-user-o pr-2"></i>
               <span className="project-label">Client </span>:{" "}
-              <span className="ft-wt-600 uppercase">Videohive</span>
+              <span className="ft-wt-600 uppercase">CLUTCH</span>
             </div>
             {/* End .col */}
 
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-code pr-2"></i>
               <span className="project-label">Software </span>:{" "}
-              <span className="ft-wt-600 uppercase">Adobe After Effects</span>
+              <span className="ft-wt-600 uppercase">JavaScript, React, Node.js, Express.js</span>
             </div>
             {/* End .col */}
 
@@ -49,9 +49,7 @@ const ModalTwoContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        {/*  Main Project Content Starts */}
         <img src="img/projects/project-2.jpg" alt="Portolio" />
-        {/* Main Project Content Ends */}
         {/* Main Project Content Ends */}
       </figure>
     </div>

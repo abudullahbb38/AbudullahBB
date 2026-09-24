@@ -6,7 +6,7 @@ const ModalFiveContent = () => {
       <figure>
         {/* Project Details Starts */}
         <figcaption>
-          <h3>Saas App Project</h3>
+          <h3>Uzum Nasiya</h3>
           <div className="row open-sans-font">
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-file-text-o pr-2"></i>
@@ -18,7 +18,7 @@ const ModalFiveContent = () => {
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-user-o pr-2"></i>
               <span className="project-label">Client </span>:{" "}
-              <span className="ft-wt-600 uppercase">Themeforest</span>
+              <span className="ft-wt-600 uppercase">Uzum Nasiya</span>
             </div>
             {/* End .col */}
 
@@ -34,11 +34,11 @@ const ModalFiveContent = () => {
               <span className="project-label">Preview </span>:{" "}
               <span className="ft-wt-600 uppercase">
                 <a
-                  href="https://themeforest.net/item/deski-saas-software-react-template/33799794"
+                  href="https://uzumnasiya.uz"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  www.envato.com
+                  uzumnasiya.uz
                 </a>
               </span>
             </div>

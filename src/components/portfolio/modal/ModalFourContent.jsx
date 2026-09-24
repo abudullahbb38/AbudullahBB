@@ -6,26 +6,26 @@ const ModalFourContent = () => {
       <figure>
         {/* Project Details Starts */}
         <figcaption>
-          <h3>LOCAL VIDEO PROJECT</h3>
+          <h3>QWATT</h3>
           <div className="row open-sans-font">
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-file-text-o pr-2"></i>
               <span className="project-label">Project </span>:{" "}
-              <span className="ft-wt-600 uppercase">Video</span>
+              <span className="ft-wt-600 uppercase">Website</span>
             </div>
             {/* End .col */}
 
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-user-o pr-2"></i>
               <span className="project-label">Client </span>:{" "}
-              <span className="ft-wt-600 uppercase">Videohive</span>
+              <span className="ft-wt-600 uppercase">QWATT</span>
             </div>
             {/* End .col */}
 
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-code pr-2"></i>
               <span className="project-label">Software </span>:{" "}
-              <span className="ft-wt-600 uppercase">Adobe After Effects</span>
+              <span className="ft-wt-600 uppercase">React, Node.js, Python</span>
             </div>
             {/* End .col */}
 
@@ -34,11 +34,11 @@ const ModalFourContent = () => {
               <span className="project-label">Preview </span>:{" "}
               <span className="ft-wt-600 uppercase">
                 <a
-                  href="https://videohive.net/"
+                  href="https://qwatt.uz"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  www.videohive.net
+                 QWATT
                 </a>
               </span>
             </div>
@@ -49,17 +49,7 @@ const ModalFourContent = () => {
         {/* Project Details Ends */}
 
         {/*  Main Project Content Starts */}
-        <div className="videocontainer">
-          <video
-            id="video"
-            className="responsive-video"
-            controls
-            poster="img/projects/project-1.jpg"
-          >
-            <source src="img/projects/video.mp4" type="video/mp4" />
-          </video>
-        </div>
-        {/* Main Project Content Ends */}
+         <img src="img/projects/project-4.jpg" alt="Portolio" />{/* Main Project Content Ends */}
       </figure>
     </div>
     //  End .slideshow

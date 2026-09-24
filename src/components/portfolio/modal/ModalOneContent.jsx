@@ -18,14 +18,14 @@ const ModalOneContent = () => {
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-user-o pr-2"></i>
               <span className="project-label">Client </span>:{" "}
-              <span className="ft-wt-600 uppercase">Envato</span>
+              <span className="ft-wt-600 uppercase">PAY ME</span>
             </div>
             {/* End .col */}
 
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-code pr-2"></i>
               <span className="project-label">Langages </span>:{" "}
-              <span className="ft-wt-600 uppercase">HTML, CSS, Javascript</span>
+              <span className="ft-wt-600 uppercase">Javascript, React, Node.js</span>
             </div>
             {/* End .col */}
 
