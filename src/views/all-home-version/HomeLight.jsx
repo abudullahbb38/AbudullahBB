@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Hero from "../../components/hero/HeroLight";
 import Index from "../../components/about/index";
-import Address from "../../components/Address";
 import Portfolio from "../../components/portfolio/PortfolioLight";
 
 const menuItem = [

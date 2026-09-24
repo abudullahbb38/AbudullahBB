@@ -2,9 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Hero from "../../components/hero/Hero";
 import Index from "../../components/about/index";
-import Address from "../../components/Address";
 import Portfolio from "../../components/portfolio/Portfolio";
-import Social from "../../components/Social";
 
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
