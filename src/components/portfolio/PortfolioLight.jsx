@@ -7,9 +7,6 @@ import ModalThreeContent from "./modal/ModalThreeContent";
 import ModalFourContent from "./modal/ModalFourContent";
 import ModalFiveContent from "./modal/ModalFiveContent";
 import ModalSixContent from "./modal/ModalSixContent";
-import ModalSevenContent from "./modal/ModalSevenContent";
-import ModalEightContent from "./modal/ModalEightContent";
-import ModalNineContent from "./modal/ModalNineContent";
 
 const PortfolioLight = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,9 +15,6 @@ const PortfolioLight = () => {
   const [isOpen4, setIsOpen4] = useState(false);
   const [isOpen5, setIsOpen5] = useState(false);
   const [isOpen6, setIsOpen6] = useState(false);
-  const [isOpen7, setIsOpen7] = useState(false);
-  const [isOpen8, setIsOpen8] = useState(false);
-  const [isOpen9, setIsOpen9] = useState(false);
 
   function toggleModalOne() {
     setIsOpen(!isOpen);
@@ -39,15 +33,6 @@ const PortfolioLight = () => {
   }
   function toggleModalSix() {
     setIsOpen6(!isOpen6);
-  }
-  function toggleModalSeven() {
-    setIsOpen7(!isOpen7);
-  }
-  function toggleModalEight() {
-    setIsOpen8(!isOpen8);
-  }
-  function toggleModalNine() {
-    setIsOpen9(!isOpen9);
   }
 
   useEffect(() => {
