@@ -43,6 +43,11 @@ const ModalOneContent = () => {
               </span>
             </div>
             {/* End .col */}
+            <div className="col-12 mb-2">
+              <span className="project-label">Problems solved </span>:{" "}
+              <span className="ft-wt-300">Addressed high-load web application requirements by developing and implementing a feature-rich website designed to handle significant user traffic efficiently. Improved the website’s search-engine visibility through SEO optimization while supporting better user engagement and online reach. </span>
+            </div>
+            {/* End .col */}
           </div>
           {/* End .row */}
         </figcaption>

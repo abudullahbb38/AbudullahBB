@@ -25,7 +25,7 @@ const ModalFourContent = () => {
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-code pr-2"></i>
               <span className="project-label">Software </span>:{" "}
-              <span className="ft-wt-600 uppercase">React, Node.js, Python</span>
+              <span className="ft-wt-600 uppercase">React, Node.js, REST API</span>
             </div>
             {/* End .col */}
 
@@ -41,6 +41,11 @@ const ModalFourContent = () => {
                  QWATT
                 </a>
               </span>
+            </div>
+            {/* End .col */}
+            <div className="col-12 mb-2">
+              <span className="project-label">Problems solved </span>:{" "}
+              <span className="ft-wt-300">Helped organize company profiles, service categories, client reviews, and project information to improve transparency and simplify the vendor-selection process. Supported the creation of a user-friendly interface with search, filtering, and company-detail features, enabling users to find suitable technology partners more efficiently. </span>
             </div>
             {/* End .col */}
           </div>

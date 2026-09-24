@@ -25,7 +25,7 @@ const ModalFiveContent = () => {
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-code pr-2"></i>
               <span className="project-label">Langages </span>:{" "}
-              <span className="ft-wt-600 uppercase">HTML, CSS, Javascript</span>
+              <span className="ft-wt-600 uppercase">Javascript, NodeJs, Figma, REST API</span>
             </div>
             {/* End .col */}
 
@@ -41,6 +41,11 @@ const ModalFiveContent = () => {
                   uzumnasiya.uz
                 </a>
               </span>
+            </div>
+            {/* End .col */}
+            <div className="col-12 mb-2">
+              <span className="project-label">Problems solved </span>:{" "}
+              <span className="ft-wt-300">Developed a digital installment-payment platform that enabled customers to apply for installment plans online, manage purchases, and track payment schedules through web and mobile applications. Contributed to improving administrative efficiency by providing an admin panel for managing applications, monitoring payments, and coordinating partner interactions. Used React.js, Flutter, Dart, Node.js, API integration, Postman, Figma, Git, and responsive UI development to build and maintain the platform.</span>
             </div>
             {/* End .col */}
           </div>

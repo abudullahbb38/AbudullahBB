@@ -25,7 +25,7 @@ const ModalTwoContent = () => {
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-code pr-2"></i>
               <span className="project-label">Software </span>:{" "}
-              <span className="ft-wt-600 uppercase">JavaScript, React, Node.js, Express.js</span>
+              <span className="ft-wt-600 uppercase">JavaScript, React, NodeJs, Express</span>
             </div>
             {/* End .col */}
 
@@ -41,6 +41,11 @@ const ModalTwoContent = () => {
                   clutch.co
                 </a>
               </span>
+            </div>
+            {/* End .col */}
+            <div className="col-12 mb-2">
+              <span className="project-label">Problems solved </span>:{" "}
+              <span className="ft-wt-300">Contributed to the development of a B2B service marketplace that helps businesses discover, compare, and evaluate software development companies and technology service providers. Helped organize company profiles, service categories, client reviews, and project information to improve transparency and simplify the vendor-selection process. </span>
             </div>
             {/* End .col */}
           </div>

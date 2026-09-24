@@ -25,7 +25,7 @@ const ModalSixContent = () => {
             <div className="col-12 col-sm-6 mb-2">
               <i className="fa fa-code pr-2"></i>
               <span className="project-label">Langages </span>:{" "}
-              <span className="ft-wt-600 uppercase">HTML, CSS, Javascript</span>
+              <span className="ft-wt-600 uppercase">Javascript, NodeJs, REST </span>
             </div>
             {/* End .col */}
 
@@ -41,6 +41,11 @@ const ModalSixContent = () => {
                   migration.uz
                 </a>
               </span>
+            </div>
+            {/* End .col */}
+            <div className="col-12 mb-2">
+              <span className="project-label">Problems solved </span>:{" "}
+              <span className="ft-wt-300">Developed a digital migration platform that centralized employment opportunities, migration information, application services, and pre-departure guidance for citizens seeking employment abroad. Improved access to government migration services by providing online job information, electronic applications, migration data, and multilingual support resources. Used React.js, JavaScript, HTML5, CSS3, REST API integration, responsive design, form validation, Postman, Git, and GitHub to build and maintain user-focused web functionality.</span>
             </div>
             {/* End .col */}
           </div>
